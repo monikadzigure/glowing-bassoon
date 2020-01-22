@@ -9,3 +9,13 @@ h2 {
 .green-text {
     color: green;
 }
+
+p {
+    color: yellow;
+}
+
+.my-text {
+    color: red;
+    background-color: darkgreen;
+    font-size: 12px;
+}
