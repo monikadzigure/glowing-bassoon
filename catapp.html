@@ -6,57 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cat App</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="styles/catstyle.css">
 </head>
 
 <body>
-    <h1>Cats</h1>
-    <h2>CatPhotoApp</h2>
-    <a href="http://rigacoding.lv" target="_blank">RCS</a>
-    <hr>
+
+
+    <h2 class="red-text thick-green-border">CatPhotoApp</h2>
     <main>
-        <img src="img/sleeping-cat.jpg" alt="sleeping kitty" width="200">
-        <hr>
-        <form action="/process-cats">
-            <input type="text" placeholder="enter Cat info">
+        <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+        <a href="#"><img class="thick-green-border smaller-image" src="https://bit.ly/fcc-relaxing-cat"
+                alt="A cute orange cat lying on its back."></a>
+
+        <div>
+            <p class="thin-blue-border">Things cats love:</p>
+            <ul>
+                <li>cat nip</li>
+                <li>laser pointers</li>
+                <li>lasagna</li>
+            </ul>
+            <p>Top 3 things cats hate:</p>
+            <ol>
+                <li>flea treatment</li>
+                <li>thunder</li>
+                <li>other cats</li>
+            </ol>
+        </div>
+
+        <form action="/submit-cat-photo">
+            <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+            <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+            <label><input type="checkbox" name="personality" checked> Loving</label>
+            <label><input type="checkbox" name="personality"> Lazy</label>
+            <label><input type="checkbox" name="personality"> Energetic</label><br>
+            <input type="text" placeholder="cat photo URL" required>
             <button type="submit">Submit</button>
         </form>
-
-        <ol start="50">
-            <li>Add more stuff new text Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora praesentium
-                dolorem sunt, nostrum
-                aliquid, aspernatur, voluptatem recusandae quis delectus explicabo maxime. Quas harum sequi similique
-                ducimus veritatis nisi soluta inventore.</li>
-            <li>Add more stuff new text Sed tempore cupiditate alias id ea ipsam vitae veniam consequatur! A, dolorem
-                esse blanditiis deserunt
-                atque aperiam quis beatae suscipit dolorum quaerat voluptate eligendi molestias rem minima nam eaque
-                expedita.</li>
-            <li>Add more stuff new text Ad mollitia veniam ab distinctio sequi voluptas. Repellat facilis in
-                dignissimos, quae reprehenderit
-                laborum suscipit debitis beatae consectetur, dolore vel, alias tenetur? Eveniet, est. Expedita
-                necessitatibus minus maiores ullam dolorum.</li>
-            <li>Add more stuff new text Corrupti amet ea omnis voluptatibus non ipsum aut recusandae? Veritatis itaque,
-                cumque repudiandae sed
-                quae placeat, natus sint hic nihil fuga quisquam quam excepturi quibusdam reprehenderit qui possimus
-                officia mollitia?</li>
-            <li>Blanditiis expedita quae vero ea molestiae maiores numquam alias nemo, eos fuga sint optio rem minima
-                aperiam hic ad architecto ut maxime! Facere error perspiciatis eveniet reprehenderit libero ab ratione!
-            </li>
-        </ol>
-
-        <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
-            href="https://unsplash.com/@izandphil?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
-            target="_blank" rel="noopener noreferrer"
-            title="Download free do whatever you want high-resolution photos from Iz &amp; Phil"><span
-                style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
-                    style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
-                    viewBox="0 0 32 32">
-                    <title>unsplash-logo</title>
-                    <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
-                </svg></span><span style="display:inline-block;padding:2px 3px">Iz &amp; Phil</span></a>
-        <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot,
-            hairball run catnip eat the grass sniff.</p>
-        <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink
-            fluffy fur catnip scratched.</p>
     </main>
 
 
