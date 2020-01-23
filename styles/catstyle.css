@@ -1,29 +1,28 @@
-
 .red-text {
-color: red;
+  color: red;
 }
 
 h2 {
-font-family: Lobster, monospace;
+  font-family: Lobster, monospace;
 }
 
 p {
-font-size: 16px;
-font-family: monospace;
+  font-size: 16px;
+  font-family: monospace;
 }
 
 .smaller-image {
-width: 100px;
+  width: 100px;
 }
 
 .thick-green-border {
-    border-color: green;
-    border-width: 10px;
-    border-style: solid;
-    }
+  border-color: green;
+  border-width: 10px;
+  border-style: solid;
+}
 
 .thin-blue-border {
-    border-color: blue;
-    border-width: 5px;
-    border-style: double;
+  border-color: blue;
+  border-width: 5px;
+  border-style: double;
 }

@@ -1,21 +1,21 @@
 h1 {
-    color: purple;
+  color: purple;
 }
 
 h2 {
-    color: rgb(71, 38, 102);
+  color: rgb(71, 38, 102);
 }
 
 .green-text {
-    color: green;
+  color: green;
 }
 
 p {
-    color: yellow;
+  color: yellow;
 }
 
 .my-text {
-    color: red;
-    background-color: darkgreen;
-    font-size: 12px;
+  color: red;
+  background-color: darkgreen;
+  font-size: 12px;
 }
