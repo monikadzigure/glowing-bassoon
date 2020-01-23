@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: silver;
+  color: green;
+}
+
 .my-box {
   width: 200px;
   height: 100px;
@@ -14,4 +19,31 @@
   border-style: solid;
   padding: 15px;
   margin: 20px;
+}
+
+.big-box {
+  width: 300px;
+}
+
+.pink-text {
+  color: pink !important;
+}
+.blue-text {
+  color: blue;
+}
+
+#orange-text {
+  color: orange;
+}
+
+div#test span {
+  color: green;
+}
+
+div span {
+  color: blue;
+}
+
+span {
+  color: red;
 }
