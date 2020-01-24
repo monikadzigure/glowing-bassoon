@@ -6,15 +6,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  background-color: blueviolet;
+  --myvar: orange;
+}
+
 body {
   background-color: silver;
-  color: green;
+  color: rgb(73, 126, 121);
 }
 
 .my-box {
   width: 200px;
   height: 100px;
-  border-color: burlywood;
+  border-color: var(--myvar);
   border-width: 10px;
   border-style: solid;
   padding: 15px;
