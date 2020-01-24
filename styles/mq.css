@@ -1,0 +1,16 @@
+body {
+  background-color: cadetblue;
+}
+
+@media (min-width: 300px) {
+  body {
+    background-color: coral;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: rgb(61, 36, 153);
+    color: gray;
+  }
+}
