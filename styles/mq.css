@@ -4,7 +4,7 @@ body {
 
 @media (min-width: 300px) {
   body {
-    background-color: coral;
+    background-color: hsl(0, 100%, 48%);
   }
 }
 
