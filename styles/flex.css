@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+}
+
+.container {
+    background-color: darksalmon;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    height: 400px;
+    flex-flow: wrap;
+    /* align-items: center; */
+    align-content: space-around;
+}
+
+.child {
+    margin: 10px;
+    border: 3px solid black;
+    /* width: 50px; */
+    height: 50px;
+    flex: 1 1 75px;
+}
+.child1 {
+    order: 3;
+}
+
+.child4 {
+    order: -55;
+}
