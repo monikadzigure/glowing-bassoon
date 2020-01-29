@@ -1,0 +1,31 @@
+body {
+    background-color: silver;
+}
+
+.container {
+    display: grid;
+}
+
+#cont1 {
+    grid-template-columns: 200px 25% 10em;
+}
+
+#cont2 {
+    grid-template-columns: 100px 1fr 2fr 200px;
+}
+
+.child1 {
+    background-color: aquamarine;
+}
+.child2 {
+    background-color: brown;
+}
+.child3 {
+    background-color: rgb(126, 46, 197);
+}
+.child4 {
+    background-color: rgb(200, 255, 127);
+}
+.child5 {
+    background-color: rgb(246, 255, 127);
+}
