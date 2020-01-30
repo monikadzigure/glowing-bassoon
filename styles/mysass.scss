@@ -1,0 +1,12 @@
+@import "_variables.scss";
+@import "resets.scss";
+
+.container-outer {
+    background-color: $primary-color;
+    color: $secondary-color;
+
+    .container-inner {
+        border: 5px solid black;
+        margin: 10px;
+    }
+}
