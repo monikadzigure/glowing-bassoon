@@ -1,3 +1,7 @@
+"use strict";
+// myGlobal = [33, 34, 2, 432];
+// console.log(myGlobal);
+
 let myState = [
     [0, 1, 0],
     [0, 0, 0],
@@ -14,15 +18,22 @@ function main() {
     //done
 }
 
+function functionWithArgs(a, b) {
+    let myLocalFunctionVar = a + b + 36;
+    console.log(a + b);
+    console.log(myLocalFunctionVar);
+    //myLocalFunctionVar is gone here
+}
+
 function config() {
     console.log("Configuring stuff");
 }
 
 function play() {
     console.log("Playing");
-    console.log(myState);
-    myState[0][2] = "X";
-    console.log(myState);
+    // console.log(myState);
+    functionWithArgs(5, 11);
+    functionWithArgs("Valdis", " Saulespurens");
 }
 
 main();
