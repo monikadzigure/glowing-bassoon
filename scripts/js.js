@@ -8,6 +8,15 @@ let myState = [
     [0, 0, 0]
 ];
 
+let testObj = {
+    hat: "ballcap",
+    shirt: "jersey",
+    shoes: "cleats"
+};
+
+let myhat = testObj.hat;
+console.log(myhat);
+
 function main() {
     //our main work is done here
     console.log("Started main function");
